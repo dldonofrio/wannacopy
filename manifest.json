@@ -1,6 +1,6 @@
 {
 		"name": "WannaCopy",
-		"version": "1.2.4",
+		"version": "1.2.6",
 		"description": "Lets you copy things that a website might not want you to",
 		"content_scripts": [
   			{
@@ -15,5 +15,8 @@
 			"http://*/*",
 			"https://*/*"
 		],
+		"icons": {
+			"128": "images/icon1.png"
+		},
 		"manifest_version": 2
 }
